@@ -192,7 +192,7 @@ class JsExtract:
         Raises
         ----------
         UnicodeDecodeError
-            Raise an error if the endcoding found in the page is unkown.
+            Raise an error if the encoding found in the page is unkown.
         """
 
         if url.startswith('http://') or url.startswith('https://'):
@@ -237,7 +237,7 @@ class JsExtract:
         Raises
         ----------
         UnicodeDecodeError
-            Raise an error if the endcoding found in the page is unkown.
+            Raise an error if the encoding found in the page is unkown.
         """
         # domain = urlparse(url).netloc
 
